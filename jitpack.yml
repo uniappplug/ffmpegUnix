@@ -1,0 +1,5 @@
+# 安装第一个 AAR 文件
+mvn install:install-file -Dfile=ffmpeg-kit.aar -DgroupId=com.github.uniappplug -DartifactId=ffmpegKitr -Dversion=v1.0 -Dpackaging=aar
+
+# 安装第二个 AAR 文件
+mvn install:install-file -Dfile=ffmpegUnix-release.aar -DgroupId=com.github.uniappplug -DartifactId=ffmpegUnix -Dversion=v1.0 -Dpackaging=aar
